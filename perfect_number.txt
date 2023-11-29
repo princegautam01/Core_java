@@ -1,0 +1,33 @@
+public class perfect_number{
+
+   public static void main(String [] args){
+
+      int a = 6;
+      int total = 0;
+      
+      for(int i = 1; i<6;i++){
+     
+          if(a%i==0){
+            
+              total = total + i;
+     
+          }
+        
+          if(total==a){
+              System.out.println("Perfect Number");
+
+          }
+    
+        
+
+
+
+       }
+
+
+
+     }
+
+
+
+}
